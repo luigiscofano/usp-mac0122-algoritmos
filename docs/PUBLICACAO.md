@@ -15,6 +15,7 @@ Edição organizada em 31/10/2026. As branches registram entregas atuais e perma
 | [#7](https://github.com/luigiscofano/usp-mac0122-algoritmos/pull/7) | `docs/collatz-validado` | Registrar CI C11 aprovada e atualizar catalogo de entregas |
 | [#8](https://github.com/luigiscofano/usp-mac0122-algoritmos/pull/8) | `acervo/collatz-2022` | Publicar relatório autorizado de Collatz com leitura crítica |
 | [#9](https://github.com/luigiscofano/usp-mac0122-algoritmos/pull/9) | `docs/genes-e-quadros` | Detalhar estudo de genes e invariantes por quadro |
+| [#10](https://github.com/luigiscofano/usp-mac0122-algoritmos/pull/10) | `docs/intervalos-e-pares` | Organizar guias de intervalos e contagem de pares |
 
 [Mapa de branches](BRANCHES.md) · [Guias por assunto](topicos/README.md) · [Todos os PRs](https://github.com/luigiscofano/usp-mac0122-algoritmos/pulls?q=is%3Apr)
 

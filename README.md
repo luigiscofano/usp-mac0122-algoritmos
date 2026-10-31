@@ -31,6 +31,8 @@ Ambiente: **Java 17+ e Python 3.12**. [Instalação detalhada](docs/INSTALACAO.m
 
 ## Encontre cada parte
 
+**[Guias por assunto](docs/topicos/README.md) · [Mapa de branches](docs/BRANCHES.md) · [PRs e entregas](docs/PUBLICACAO.md)**
+
 | Diretório | Conteúdo |
 | --- | --- |
 | [src/](src/README.md) | Implementações independentes em Java: FindGene, Intervalo, UnionOfIntervals e BuscaEmAA. |

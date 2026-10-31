@@ -1,0 +1,6 @@
+{
+  "passou": true,
+  "comando": "python scripts/verificar.py",
+  "saida": "PASS: 5000 DNAs, 5000 contagens de pares, 500 unioes e casos de borda\n",
+  "data_usuario": "2026-10-31"
+}

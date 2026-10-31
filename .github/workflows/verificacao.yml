@@ -31,3 +31,18 @@ jobs:
           name: evidencia-${{ matrix.os }}
           path: build/
           retention-days: 90
+
+  collatz_c11:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: "3.12"
+      - run: python scripts/verificar_collatz.py
+      - run: ./build/collatz 1 10 > build/collatz_demo.csv
+      - uses: actions/upload-artifact@v7.0.2
+        with:
+          name: collatz-c11-exemplo
+          path: build/collatz_demo.csv
+          retention-days: 90

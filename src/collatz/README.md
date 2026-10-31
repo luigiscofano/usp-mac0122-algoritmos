@@ -1,5 +1,13 @@
 # Collatz em C11
 
+[Início](../../README.md) · [Como executar](../../README.md#como-executar) · [Aprendizagem](../../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../../README.md#estado-atual)
+
+> **Nesta área:** programa independente em C11, com limites de passos e checagem de overflow.
+
+[Início](../../README.md) · [Como executar](../../README.md#como-executar) · [Aprendizagem](../../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../../README.md#estado-atual)
+
+> **Nesta área:** programa independente em C11, com limites de passos e checagem de overflow.
+
 Implementação nova de estudo. Para cada n positivo: n par é dividido por dois; n ímpar é substituído por 3n+1. Contam-se passos e maior valor até chegar a um, atingir o orçamento de passos ou detectar overflow.
 
 ```sh
@@ -14,4 +22,12 @@ O CSV tem n,passos,pico,estado. Saída zero indica que todos chegaram a um dentr
 
 O código verifica 3n+1 antes de calculá-lo com uint64_t. Não usa ponto flutuante para identificar paridade ou representar inteiros. São aceitos até 10.000 valores por chamada e orçamento de até 1.000.000 de passos por valor. Memória auxiliar O(1); tempo proporcional aos passos efetivamente executados.
 
-**Testar entradas não prova a conjectura para todos os inteiros.** Esta versão não é apresentada como cópia do programa historicamente entregue. Materiais privados encontrados permanecem separados para autorização de divulgação.
+**Testar entradas não prova a conjectura para todos os inteiros.** Esta versão não é apresentada como cópia do programa historicamente entregue. O relatório textual autorizado está em [acervo/](../../acervo/README.md), separado desta implementação nova.
+
+---
+
+**Projeto:** [MAC0122 · Algoritmos, invariantes e testes](../../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `src/collatz/`.
+
+---
+
+**Projeto:** [MAC0122 · Algoritmos, invariantes e testes](../../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `src/collatz/`.

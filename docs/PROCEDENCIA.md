@@ -1,6 +1,6 @@
 # Procedência e reconstrução
 
-Temas recuperados de conversas de outubro/novembro de 2023: E05 genes, E06 união de intervalos e T07 busca em A+A. Os fontes originais entregues não foram localizados. O código desta edição é uma reconstrução nova de 2026, com assistência de IA e testes reais.
+Temas recuperados de conversas de outubro/novembro de 2023: E05 genes, E06 união de intervalos e T07 busca em A+A. Os fontes originais entregues não foram localizados. O código desta edição é uma reconstrução nova de 2026, com testes reais.
 
 A página pública da edição confirma o nome Princípios de Desenvolvimento de Algoritmos. A descrição anterior como Algoritmos e Estruturas de Dados era temática, não o título oficial recuperado.
 

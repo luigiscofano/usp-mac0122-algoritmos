@@ -27,3 +27,7 @@ Os artefatos podem exigir login no GitHub e têm prazo de retenção; os fontes 
 - [evidencia-windows-latest](https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41227629612/artifacts/13051474713) — retenção até 2027-01-29T18:04:56Z.
 
 O commit acima identifica exatamente a versão testada. Atualizações documentais posteriores não ampliam a conclusão funcional.
+
+## Extensão Collatz em C11
+
+Teste local aprovado com compilação estrita (-Wall -Wextra -Werror -pedantic), casos conhecidos 1/2/6/27, intervalo, orçamento, overflow uint64 e entradas inválidas. Para 27 foram verificados 111 passos e pico 9232. A nova configuração inclui job C11 em Ubuntu. O registro remoto acima corresponde à suíte Java anterior à extensão; o badge e o histórico do Actions mostram a execução adicional.

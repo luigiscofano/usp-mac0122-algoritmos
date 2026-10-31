@@ -29,3 +29,7 @@
 | Reprodução | Depende do ambiente pessoal | Usa comandos e fixtures | Registra versão, origem e evidência |
 
 Rubrica proposta nesta edição, sem estudo de eficácia pedagógica com participantes ou nota institucional.
+
+## Collatz: controle de execução e limites inteiros
+
+Explique paridade sem ponto flutuante, derive a condição de overflow de 3n+1 antes de calculá-lo e diferencie atingir o orçamento de encontrar uma sequência que não termina. Valide casos conhecidos e argumente por que testes finitos não provam a conjectura.

@@ -7,3 +7,7 @@ A página pública da edição confirma o nome Princípios de Desenvolvimento de
 As conversas de E06 divergem sobre stdin versus nome de arquivo. Esta edição aceita ambos e usa -v para listar componentes e gerar SVG. Usa um record Intervalo independente em vez do Interval1D exigido no exercício histórico. Elimina a dependência gráfica, mas não é uma submissão estritamente compatível com o avaliador antigo.
 
 Os links históricos de E05 não forneceram os fontes nesta recuperação. O contrato dos genes está, portanto, explicitado nesta edição: ATG inicial, primeiro TAA/TAG/TGA no mesmo quadro, stop incluído, sem stop interno. A ordem é a dos inícios, sem alegação de igualdade byte a byte à saída de um fonte não recuperado.
+
+## Extensão nova em C
+
+O módulo Collatz desta edição é uma implementação independente de estudo, sem copiar um fonte histórico como se tivesse sido autenticado. Materiais privados relacionados foram separados para aprovação antes de divulgação pública.

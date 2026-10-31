@@ -39,6 +39,10 @@ Ambiente: **Java 17+ e Python 3.12**. [Instalação detalhada](docs/INSTALACAO.m
 | [assets/](assets/README.md) | Capa vetorial e visualização da união gerada pelo programa. |
 | [docs/](docs/README.md) | Arquitetura, objetivos, reprodução, apresentação e evidência |
 
+## Extensão de estudo: Collatz em C11
+
+[Implementação, contrato e comandos](src/collatz/README.md). O programa percorre um intervalo de inteiros positivos, registra passos e pico e interrompe por orçamento ou overflow. É código novo; não apresenta como recuperado o fonte da entrega antiga. O workflow inclui verificação C11 em Ubuntu, além da suíte Java nas três plataformas.
+
 ## Verificação e limites
 
 5.000 DNAs e 5.000 vetores com duplicatas confrontados com oráculos; 500 uniões comparadas com cobertura de segmentos inteiros. Casos adicionais: stops, sobreposições, vazio, extremos de int, NaN e entradas inválidas.

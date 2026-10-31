@@ -1,10 +1,14 @@
 {
   "data_usuario": "2026-10-31",
-  "run_id": 41227629612,
-  "run_url": "https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41227629612",
-  "commit": "47d153d6e0b8258c5e57690b5b5113c2a2902c54",
+  "run_id": 41228815055,
+  "run_url": "https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41228815055",
+  "commit": "7813bc84d7802c6230524d9d389fbab045a3ff5c",
   "conclusao": "success",
   "jobs": [
+    {
+      "nome": "collatz_c11",
+      "conclusao": "success"
+    },
     {
       "nome": "testes (windows-latest)",
       "conclusao": "success"
@@ -21,18 +25,23 @@
   "artefatos": [
     {
       "nome": "evidencia-ubuntu-24.04",
-      "url": "https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41227629612/artifacts/13052585587",
-      "expira_em": "2027-01-29T18:04:56Z"
+      "url": "https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41228815055/artifacts/13053057293",
+      "expira_em": "2027-01-29T18:19:09Z"
     },
     {
-      "nome": "evidencia-macos-15",
-      "url": "https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41227629612/artifacts/13052346767",
-      "expira_em": "2027-01-29T18:04:56Z"
+      "nome": "collatz-c11-exemplo",
+      "url": "https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41228815055/artifacts/13052716858",
+      "expira_em": "2027-01-29T18:19:09Z"
     },
     {
       "nome": "evidencia-windows-latest",
-      "url": "https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41227629612/artifacts/13051474713",
-      "expira_em": "2027-01-29T18:04:56Z"
+      "url": "https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41228815055/artifacts/13052328981",
+      "expira_em": "2027-01-29T18:19:09Z"
+    },
+    {
+      "nome": "evidencia-macos-15",
+      "url": "https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41228815055/artifacts/13052184389",
+      "expira_em": "2027-01-29T18:19:09Z"
     }
   ]
 }

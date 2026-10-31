@@ -10,4 +10,4 @@ Os links históricos de E05 não forneceram os fontes nesta recuperação. O con
 
 ## Extensão nova em C
 
-O módulo Collatz desta edição é uma implementação independente de estudo, sem copiar um fonte histórico como se tivesse sido autenticado. Materiais privados relacionados foram separados para aprovação antes de divulgação pública.
+O módulo Collatz desta edição é uma implementação independente de estudo, sem copiar um fonte histórico como se tivesse sido autenticado. A extração textual do relatório de 2022 está em acervo/, publicada com autorização do autor. As imagens e o fonte original não foram extraídos; o programa em C11 continua identificado como novo.

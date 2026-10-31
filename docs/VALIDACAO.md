@@ -30,4 +30,4 @@ O commit acima identifica exatamente a versão testada. Atualizações documenta
 
 ## Extensão Collatz em C11
 
-Teste local aprovado com compilação estrita (-Wall -Wextra -Werror -pedantic), casos conhecidos 1/2/6/27, intervalo, orçamento, overflow uint64 e entradas inválidas. Para 27 foram verificados 111 passos e pico 9232. A nova configuração inclui job C11 em Ubuntu. O registro remoto acima corresponde à suíte Java anterior à extensão; o badge e o histórico do Actions mostram a execução adicional.
+Teste local aprovado com compilação estrita (-Wall -Wextra -Werror -pedantic), casos conhecidos 1/2/6/27, intervalo, orçamento, overflow uint64 e entradas inválidas. Para 27 foram verificados 111 passos e pico 9232. A nova configuração inclui job C11 em Ubuntu. A [execução 41228815055](https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41228815055) aprovou o job Collatz C11 e os três jobs Java; o registro estruturado foi atualizado para incluir essa extensão.

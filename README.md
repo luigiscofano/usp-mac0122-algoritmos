@@ -55,4 +55,4 @@ Use o [roteiro de apresentação](docs/APRESENTACAO.md) e confira os [PRs reais]
 
 [Contribuir](CONTRIBUTING.md) · [Direitos e créditos](DIREITOS_E_CREDITOS.md) · [Referências](docs/REFERENCIAS.md) · [Mudanças](CHANGELOG.md)
 
-**CI confirmada:** [testes aprovados](https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41227629612). Consulte o registro de [validação remota](docs/validacao-remota.json).
+**CI confirmada:** [testes aprovados](https://github.com/luigiscofano/usp-mac0122-algoritmos/actions/runs/41228815055). Consulte o registro de [validação remota](docs/validacao-remota.json).

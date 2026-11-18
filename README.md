@@ -14,9 +14,20 @@ Reúne problemas de **Princípios de Desenvolvimento de Algoritmos — MAC0122**
 
 ## Qual problema resolve
 
+<details>
+<summary>Expandir qual problema resolve</summary>
+
 O objetivo é compreender por que um algoritmo é correto e eficiente, além de obter uma saída. Cada estudo explicita contrato, invariante, custo e casos de fronteira. Os testes comparam várias entradas com referências mais simples, em vez de depender apenas de um exemplo visual.
 
+
+</details>
+
+---
+
 ## Funcionalidades e módulos
+
+<details>
+<summary>Expandir funcionalidades e módulos</summary>
 
 | Estudo | Entrada → saída | Ideia principal | Custo |
 | --- | --- | --- | --- |
@@ -41,7 +52,15 @@ O objetivo é compreender por que um algoritmo é correto e eficiente, além de 
 
 Para n positivo, divide pares por dois e transforma ímpares em 3n+1, registrando passos e maior valor. O programa verifica overflow de `uint64_t` antes da operação e pode interromper por orçamento. Aceita até 10.000 valores por chamada e até 1.000.000 de passos por valor. **Experimentos finitos não provam a conjectura.** O [relatório de 2022](acervo/README.md) foi recuperado; o código C desta edição é novo e seus limites estão identificados.
 
+
+</details>
+
+---
+
 ## Como executar
+
+<details>
+<summary>Expandir como executar</summary>
 
 **Requisitos:** JDK 17 ou superior, com `java` e `javac` no PATH; Python 3.12 para o verificador. O JRE sozinho não contém o compilador. Não há dependência de Maven ou Gradle na suíte nova.
 
@@ -95,13 +114,29 @@ python scripts/verificar_collatz.py
 
 No Windows, use `build\collatz.exe`. Para 27, são esperados 111 passos e pico 9232. `./build/collatz 27 27 100` deve interromper por limite, em vez de declarar conclusão. Saídas 1 e 2 indicam, respectivamente, entrada inválida e interrupção/overflow.
 
+
+</details>
+
+---
+
 ## O que desenvolvi e aprendi
+
+<details>
+<summary>Expandir o que desenvolvi e aprendi</summary>
 
 As implementações desta edição, seus exemplos e a suíte de verificação exercitam invariantes, varreduras, ordenação, complexidade com volume de saída, multiplicidades e limites numéricos. A recuperação dos temas acadêmicos e a origem de cada implementação estão em [PROCEDENCIA.md](docs/PROCEDENCIA.md).
 
 **Atividade pedagógica:** explique por que guardar apenas o último ATG perde genes; construa um caso em que ignorar duplicatas erra a soma de pares; justifique por que somente o último componente da união pode se sobrepor ao próximo intervalo. [Atividades e rubrica](docs/OBJETIVOS_PEDAGOGICOS.md).
 
+
+</details>
+
+---
+
 ## Estado atual
+
+<details>
+<summary>Expandir estado atual</summary>
 
 | Situação | Recursos |
 | --- | --- |
@@ -110,11 +145,27 @@ As implementações desta edição, seus exemplos e a suíte de verificação ex
 | Limites | Modelo simplificado de genes, aritmética double nos intervalos, orçamento finito em Collatz |
 | Histórico | Temas recuperados; fontes antigos de Java não autenticados; relatório Collatz preservado separadamente |
 
+
+</details>
+
+---
+
 ## Validação e limites
+
+<details>
+<summary>Expandir validação e limites</summary>
 
 Os programas não usam o corretor antigo da disciplina. A CI testa Java em Linux/macOS/Windows; o módulo C tem job próprio em Ubuntu. Os [contratos](docs/ARQUITETURA.md) e a [validação](docs/VALIDACAO.md) permitem conferir exatamente as conclusões. Uma saída correta para um exemplo não substitui o invariante ou um teste independente.
 
+
+</details>
+
+---
+
 ## Documentação e navegação
+
+<details>
+<summary>Expandir documentação e navegação</summary>
 
 | Caminho | Conteúdo |
 | --- | --- |
@@ -126,12 +177,33 @@ Os programas não usam o corretor antigo da disciplina. A CI testa Java em Linux
 | [Branches](docs/BRANCHES.md) e [PRs](docs/PUBLICACAO.md) | Organização das entregas |
 
 
+
+</details>
+
+---
+
 ## Autoria, referências e licença
+
+<details>
+<summary>Expandir autoria, referências e licença</summary>
 
 **Luigi Scofano de Araujo · Engenharia de Computação, Poli-USP · USP 13680334.** Fontes recuperados, componentes de terceiros e trabalhos em grupo mantêm os créditos indicados nos arquivos e na documentação.
 
 [Direitos e créditos](DIREITOS_E_CREDITOS.md) · [Procedência](docs/PROCEDENCIA.md) · [Como contribuir](CONTRIBUTING.md) · [Mudanças](CHANGELOG.md)
 
+
+</details>
+
+---
+
 ## Tópicos do repositório
 
+<details>
+<summary>Expandir tópicos do repositório</summary>
+
 `java` · `c` · `c11` · `algorithms` · `data-structures` · `two-pointers` · `intervals` · `collatz` · `property-based-testing` · `usp` · `educational`
+
+</details>
+
+---
+
